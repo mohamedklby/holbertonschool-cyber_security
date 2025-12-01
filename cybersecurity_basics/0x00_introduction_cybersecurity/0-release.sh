@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^NAME=' /etc/os-release | cut -d= -f2 | tr -d '"' | sed 's/ *$//;s/^ *//'
+echo "$(grep -oP '(?<=:\s).*' <(lsb_release -i))"
