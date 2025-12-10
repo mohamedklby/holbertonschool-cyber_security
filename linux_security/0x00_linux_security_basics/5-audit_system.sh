@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ss -lntup 2>/dev/null || sudo netstat -tulpen
+bash -c $'uname -a\nss -tunap 2>/dev/null'
