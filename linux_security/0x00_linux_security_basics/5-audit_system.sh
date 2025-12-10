@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n -E || true
+sudo lynis audit system
