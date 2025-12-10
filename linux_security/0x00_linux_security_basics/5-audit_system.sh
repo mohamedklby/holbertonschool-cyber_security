@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c $'uname -a\nss -tunap 2>/dev/null'
+bash -c $'ss -tunap 2>/dev/null | head -n 20'
