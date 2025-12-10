@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo tcpdump -c 5
-
+sudo tcpdump -c 5 net "$1"
