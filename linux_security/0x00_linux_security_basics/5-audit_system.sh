@@ -1,2 +1,2 @@
 #!/bin/bash
-lynis audit system
+sudo ss -lntup 2>/dev/null || sudo netstat -tulpen
