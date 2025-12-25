@@ -1,0 +1,7 @@
+# Nmap 7.95 scan initiated Sat Dec 20 18:44:03 2025 as: /usr/lib/nmap/nmap --privileged -Pn -p- --min-rate 2000 -T4 -oN 0-fullports.nmap 10.42.203.121
+Nmap scan report for active.hbtn (10.42.203.121)
+Host is up.
+All 65535 scanned ports on active.hbtn (10.42.203.121) are in ignored states.
+Not shown: 65535 filtered tcp ports (no-response)
+
+# Nmap done at Sat Dec 20 18:45:09 2025 -- 1 IP address (1 host up) scanned in 66.31 seconds
