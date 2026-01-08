@@ -1,1 +1,1 @@
-ip.proto != tcp && ip.proto != udp
+ip.proto != 6 && ip.proto != 17 && ip
