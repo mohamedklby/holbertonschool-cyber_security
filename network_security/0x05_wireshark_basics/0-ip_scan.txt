@@ -1,1 +1,1 @@
-ip && !tcp && !udp\n\n
+icmp
